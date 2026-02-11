@@ -9,11 +9,11 @@ public class Main {
 //        System.out.println(s);
 //        System.out.println(s1);
 
-//        //Factory
-//        Factory f=new Factory();
-//        shape s=f.getshape("Square");
-//
-//         s.draw();
+        //Factory
+        Factory f=new Factory();
+        shape s=f.getshape("Square");
+
+         s.draw();
         //Abstract factory
 //        GUIFactory factory = new WindowsFactory();
 //
@@ -26,11 +26,11 @@ public class Main {
 //        emp2.show();
 
           //Builder
-        User user = new User.Builder(10)
-                .firstname("Navaneeth")
-                .lastname("K")
-                .build();
-
-        System.out.println(user);
+//        User user = new User.Builder(10)
+//                .firstname("Navaneeth")
+//                .lastname("K")
+//                .build();
+//
+//        System.out.println(user);
     }
 }
